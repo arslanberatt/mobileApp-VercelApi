@@ -17,7 +17,7 @@ const Home = () => {
     <div>
       <h1>Home</h1>
       <button onClick={handleLogout}>Çıkış Yap</button>
-<div>Merhaba</div>
+      <h1>Merhaba</h1>
     </div>
   );
 };
