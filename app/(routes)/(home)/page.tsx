@@ -17,7 +17,7 @@ const Home = () => {
     <div>
       <h1>Home</h1>
       <button onClick={handleLogout}>Çıkış Yap</button>
-<button onClick={()=>router.push("/login");}>Girişe</button>
+<div>Merhaba</div>
     </div>
   );
 };
