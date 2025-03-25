@@ -10,13 +10,14 @@ const Home = () => {
     localStorage.removeItem("token");
 
     // Kullanıcıyı giriş sayfasına yönlendir
-    router.push("/login");
+    
   };
 
   return (
     <div>
       <h1>Home</h1>
       <button onClick={handleLogout}>Çıkış Yap</button>
+<button onClick={()=>router.push("/login");}>Girişe</button>
     </div>
   );
 };
